@@ -1,10 +1,10 @@
 {
   "name": "react-fullstack-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A template for Fullstack webapps based on React + Node.js",
   "main": "./server/index.js",
   "scripts": {
-    "start": "node ./server/index.js",
+    "start": "npm run build && cross-env NODE_ENV=production node ./dist/server/index.js",
     "client-build": "webpack --mode production --output ./dist/client/index.js",
     "server-build": "babel ./server -d ./dist/server",
     "build": "npm run client-build && npm run server-build",
@@ -24,6 +24,7 @@
     "babel-watch": "^2.0.7",
     "clean-webpack-plugin": "^0.1.19",
     "concurrently": "^3.5.1",
+    "cross-env": "^5.1.6",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
