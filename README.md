@@ -8,8 +8,8 @@ This template uses the following technologies:
 - JavaScript with ECMAScript 6 standard
 - Webpack 4.10.2
 - Express 4.16.3
-- React 16.4.0
-- Bootstrap 3.3.7
+- React 16.8.6
+- Bootstrap 4.3.1
 - jQuery 3.3.1
 - Font Awesome 5
 
