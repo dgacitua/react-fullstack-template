@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactBootstrap from 'react-bootstrap';
 
 import logo from '../assets/react-logo.png';
 import './index.css';
